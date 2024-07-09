@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    font-family: "Roboto";
+    font-size: 3rem;
+    color: aliceblue;
+}
+.cabecalho{
+    text-align: center;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: solid #fff;
+}
+.formulario input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
