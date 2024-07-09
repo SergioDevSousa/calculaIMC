@@ -7,7 +7,6 @@
 body{
     background-color: black;
     font-family: "Roboto";
-    color: aliceblue;
 }
 
 header{
@@ -22,11 +21,11 @@ header h1{
     transform: translate(-50%, -50%);
     color: black;
     background-color: rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+
 }
 .cabecalho{
     text-align: center;
-    font-size: 2rem;
-    
 }
 #banner-imagem{
     width: 100%;
@@ -45,6 +44,7 @@ header h1{
 }
 .formulario label{
     font-size: 2rem;
+    color: aliceblue;
 }
 .formulario input{
     width: 30rem;
@@ -63,9 +63,6 @@ header h1{
     background-color: #45a049;
 }
 
-p{
-    text-align: center;
-}
 footer{
     text-align: center;
     font-size: 1.5rem;
@@ -74,4 +71,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+p{
+    text-align: center;
+    color: aliceblue;
 }

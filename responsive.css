@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    .cabecalho h1{
+        font-size: 2rem;
+    }
+
+    .formulario input{
+        width: 20rem;
+        height: 2rem;
+    }
+    #meuBotao {
+        padding: 10px 20px; /* Reduz o padding */
+        font-size: 14px;    /* Reduz o tamanho da fonte */
+    }
+}
+
+/* Media query para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1440px) {
+    .cabecalho h1{
+        font-size: 3rem;
+    }
+    #meuBotao {
+        padding: 12px 24px; /* Ajusta o padding */
+        font-size: 15px;    /* Ajusta o tamanho da fonte */
+    }
+}
